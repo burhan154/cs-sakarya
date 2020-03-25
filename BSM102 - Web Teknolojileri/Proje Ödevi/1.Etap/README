@@ -1,0 +1,23 @@
+Kendimi ve memleketimi tanıtan kişisel bir web sitesi uygulaması geliştiririyorum.
+
+------index.html------
+  -Benim hakkımda bilgiler, fotoğraflar, resimler içeren anasayfadır.
+  -Giriş yap butonu eklendi.
+  -kullanıcı adı ve parola textlerinin login.js de kontrolü yapılmaktadır.
+  
+------login.js------
+  -kontrol fonksiyonu textlerin boş olup olmadığını konrol eder. Boş ise textin boş olduğunu ekrana yazar.
+  -gonder fonksiyonu kontrol fonksiyonunu çağırır. Eğer koşullar sağlanıyor ise(kullanıcı adı ve şifre girilmiş ise) 
+  degerleri giris.phpye gönderir.
+
+------giris.php------
+  -Eğer kullanıcı adı ve şifre doğru ise ekrana Hoşgeldiniz ve kullanıcı adını yazar.
+  -Yanlış ise 3 saniye sonra index.htmlye yönlendirir.
+
+------style.css------
+  -Ana panel
+  -Alt ve üst panel,üstte sayfa sekmeleri
+  -Login butonu
+  -Login paneli
+  -Yazı stili ve boyutu
+  -Arkaplan resmi
