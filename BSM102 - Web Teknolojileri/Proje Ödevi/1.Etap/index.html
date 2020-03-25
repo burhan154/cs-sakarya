@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<head><title>Şehrim</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/login.js"></script>
+	</head>
+    <body>
+		<div id="sayfa">
+			<div id="top">
+				<table border=0 align="center" width=100% height=100% >
+					<tr>
+					<td width=5%></td>
+					<td width=12% bgcolor=#34495e ><a href=# class=top-list>Ana Sayfa</td>
+					<td width=12%><a href=# class=top-list>Özgeçmiş</a></td>
+					<td width=12%><a href=# class=top-list>Şehrim</a></td>
+					<td width=12%><a href=# class=top-list>Mirasımız</a></td>	
+					<td></td>	
+					<td width=25%><button onclick="document.getElementById('giris-sayfasi').style.display='block'">ÜYE GİRİŞİ</button>
+						<div id="giris-sayfasi" class="sayfa">
+							<form class="sayfa-icerik" method="POST" action="giris.php" id="login">
+								<h1>Giriş Paneli</h1>
+								<h4><div id="uyari">Uyarı:</div></h4>
+								<input type="text" placeholder="Kullanıcı adı" name="username" id="username" onkeyup="kontrol();">
+								<input type="password" placeholder="Parola" name="password" id="password" onkeyup="kontrol();">        
+								<button type="button" onclick="gonder();" >Giriş Yapın</button>			
+							</form>
+						</div>
+						<script>
+							var sayfa = document.getElementById('giris-sayfasi');
+							window.onclick = function(event) {
+								if (event.target == sayfa) {
+									sayfa.style.display = "none";
+								}
+							}
+						</script></td>
+					</tr>
+				</table>
+			</div>
+			<div id="orta">
+				<div id="title">
+				   <h1>Hakkımda</h1>
+				</div>
+			</div>
+
+			<div id="bottom"></div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
