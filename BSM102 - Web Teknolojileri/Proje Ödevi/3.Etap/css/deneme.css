@@ -1,0 +1,104 @@
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+html, body {
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 ,h5 ,h4 ,h3{
+	color:#ecf0f1;
+}
+body{
+	background:#F78200 url(../images/bg.jpg) top left;
+	background-size: cover;
+}
+#ustAlan {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	padding:0px;
+	background-color:rgba(0,0,0,0.5);
+	text-align:center;
+}
+#ustAlan:hover {
+	background-color:#000000;
+}
+.top-list{
+	padding: 10px 10px;
+	color:#ecf0f1;
+	font-size:14px;
+	text-decoration:none;
+}
+.top-list:hover, .top-list:active{
+	font-size:16px;
+	color:#ffffff;
+}
+.sayfa {
+	display:none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 105%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.6);
+}
+.sayfa-icerik {
+	background-color:#2c3e50;
+	margin: 15% auto 15% auto;
+	border: 1px solid #888;
+	width: 40%; 
+	padding-bottom: 30px;
+	padding-top:50px;
+}
+.ortaAlan {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto ; /* altAlan yukseklik degeri ile ayn olmali */
+}
+#icerikAlani
+{
+    margin: 2em 0 1em 0;
+    font:3em Arial, Helvetica, sans-serif;
+}
+#altAlan{
+    
+    color:#036;
+    background-color:#cfc;
+}
+input[type=text], input[type=password] {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 26px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size:16px;
+}
+textarea{
+	width: 90%;
+	height:200px;
+	padding: 12px 20px;
+	margin: 8px 26px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size:16px;
+	resize: none;
+}
+button {
+	background-color: #2c3e50;
+	color: #f1c40f;
+	font-size:16px;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border:3px solid #f1c40f;
+	
+}
+button:hover {
+	background-color: #f1c40f;
+	color: #2c3e50;
+}
